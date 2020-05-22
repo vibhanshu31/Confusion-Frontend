@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 function Contact(props) {
     
-    console.log("reached contact us");
     return(
         <div className="container">
             <div className="row">
