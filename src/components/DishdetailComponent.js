@@ -107,7 +107,7 @@ class CommentForm extends Component {
                                     <Control.text model=".author" id="author" name="author" 
                                     placeholder="Your Name"
                                     className="form-control"
-                                    className="form-control"validators={{
+                                    validators={{
                                         minLength: minLength(2), maxLength: maxLength(15)
                                     }}
                                      />
