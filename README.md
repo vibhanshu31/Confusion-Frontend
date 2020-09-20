@@ -15,6 +15,13 @@ You can change the port by going to `/src/shared/baseUrl.js` and then run the se
 
 You can learn more in the [JSON server documentation](https://github.com/typicode/json-server).
 
+### Steps to start the application :
+
+- Install all the dependencies using `npm install`
+- Run the application in development mode by `npm start`
+
+Open http://localhost:3000 to view it in the browser.
+
 <br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
