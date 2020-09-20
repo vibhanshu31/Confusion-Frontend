@@ -1,3 +1,22 @@
+## How to run the application
+
+Before you run the react application you need to start up the JSON Server. <br />
+This is because application data will be served up by the local JSON Server to the react application.
+
+### Steps to start the JSON Server :
+
+- Install JSON Server by `npm install -g json-server`
+- Move to the json-server folder which is inside this repository.
+- Now start the json-server by `json-server --watch db.json -p 3001`
+
+This will start the server at port 3001.<br />
+Port 3001 is required as the react application is configured to request data at that port.<br />
+You can change the port by going to `/src/shared/baseUrl.js` and then run the server at that port.
+
+You can learn more in the [JSON server documentation](https://github.com/typicode/json-server).
+
+<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
